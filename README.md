@@ -1,7 +1,45 @@
 # motivation
 
-## A new Flutter project. You can asking magic ball about anything you want.
+## A new Flutter project. Here you can practice on the basics of building Flutter apps that have state and functionality. 
+
+`At the end you create an App where You can asking magic ball about anything you want.`
+
 ![img](https://github.com/Anna-Myzukina/motivation/blob/main/images/5hs35r.gif)
+
+## Features
+- [ ] User can asking infinity time question
+- [ ] Randomly get answers by click on ball
+
+
+## Future features
+- [ ] Randonly get answers by shaking your mobile
+- [ ] [shake 1.0.1](https://pub.dev/packages/shake/example)
+
+#### shake 
+`A flutter package to detect phone shakes.`
+
+To listen to phone shake:
+
+            ShakeDetector detector = ShakeDetector.autoStart(
+                onPhoneShake: () {
+                    // Do stuff on phone shake
+                }
+            );
+OR
+
+            ShakeDetector detector = ShakeDetector.waitForStart(
+                onPhoneShake: () {
+                    // Do stuff on phone shake
+                }
+            );
+
+            detector.startListening();
+            
+ To stop listening:
+
+            detector.stopListening();
+            
+
 
 ## Getting Started
 
@@ -33,7 +71,6 @@
 - [ ] Create a new Stateful Widget called Ball in your main.dart file.
 - [ ] Instead of BallPage having a body of Container() replace it with your new Stateful Widget.
 
-![img](https://github.com/Anna-Myzukina/motivation/blob/main/screens/4%D0%BA.PNG)
 
 ### Step 4 - Make it Interactive
 - [ ] Use a FlatButton Widget to make the Image clickable.
@@ -60,3 +97,18 @@
 
  ![img](https://github.com/Anna-Myzukina/motivation/blob/main/screens/7%D0%BA.PNG)
  
+
+## Show your support
+
+- [ ] Give a ⭐️ if you like this project!
+
+## 📝 License
+
+* [ ] See [LICENSE.md]() for details.
+
+## Authors
+
+👤 **Author1**
+* GitHub: [Anna Muzykina](https://github.com/Anna-Myzukina)
+* LinkedIn: [Anna Muzykina](https://www.linkedin.com/in/anna-muzykina/)
+* email: anna.muzykina83@gmail.com
