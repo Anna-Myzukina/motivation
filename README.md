@@ -4,13 +4,28 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Step 1: Create the starter Flutter app
 
-A few resources to get you started if this is your first Flutter project:
+- [ ] Open the IDE and select Create New Flutter Project.
+- [ ] Select Flutter Application as the project type. Then click Next.
+- [ ]   Verify the Flutter SDK path specifies the SDK’s location (select Install SDK… if the text field is blank).
+- [ ] Enter a project name (for example, motivation). Then click Next.
+- [ ] Click Finish.
+- [ ] Wait for Android Studio to install the SDK and create the project.
+- [ ] Replace code in your main.dart file with code below:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+      import 'package:flutter/material.dart';
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+      void main() => runApp(
+            MaterialApp(
+              home: null,
+            ),
+          );
+
+### Step 2 - Create a Stateless Widget
+- [ ] Create a new Stateless widget called BallPage in your main.dart file.
+- [ ] Replace the word null with the new Stateless Widget you created.
+
+![img]()
+ 
+ 
