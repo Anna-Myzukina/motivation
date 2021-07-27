@@ -12,8 +12,8 @@
 
 
 ## Future features
-- [ ] Randonly get answers by shaking your mobile
-- [ ] [shake 1.0.1](https://pub.dev/packages/shake/example)
+- [ ] Randomly get answers by shaking your mobile
+- [ ] I think about using this package: [shake 1.0.1](https://pub.dev/packages/shake/example)
 
 #### shake 
 `A flutter package to detect phone shakes.`
