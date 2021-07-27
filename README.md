@@ -27,7 +27,7 @@
 - [ ] Create a new Stateless widget called BallPage in your main.dart file.
 - [ ] Replace the word null with the new Stateless Widget you created.
 
-![img]()
+![img](https://github.com/Anna-Myzukina/motivation/blob/main/screens/3%D0%BA.PNG)
 
 ### Step 3 - Create a Stateful Widget
 - [ ] Create a new Stateful Widget called Ball in your main.dart file.
